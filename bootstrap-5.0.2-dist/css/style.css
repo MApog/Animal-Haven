@@ -1,0 +1,30 @@
+html{
+  scroll-behavior: smooth;
+}
+.imge{
+    border-radius: 50%;
+    width:80px;
+    height:80px;
+}
+
+.h11{
+    font-family: 'Times New Roman';
+    color: white; 
+    font-size: 10vmin;
+}
+
+@media only screen and (max-width: 300px) {
+    .h11 {
+        font-family: 'Times New Roman';
+        color: white; 
+        font-size: 6.5vmin;
+    }
+  }
+
+@media only screen and (max-width: 300px) {
+    .imge {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+    }
+  }
